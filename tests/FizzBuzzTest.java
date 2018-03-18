@@ -21,4 +21,12 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", fizzBuzz.answer(15));
     }
 
+    @Test
+    public void returnsNonDivisibleNumber() throws Exception {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("7", fizzBuzz.answer(7));
+    }
+
+
+
 }
